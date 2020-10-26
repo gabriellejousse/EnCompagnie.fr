@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mainresponsive.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2546950d51.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <title>En Compagnie</title>
+</head>
+
+<body>
+
+    <!-- Début Header -->
+    <header class="mb-0 my-4 container justify-content-center">
+        <div class="row justify-content-md-between justify-content-center align-items-end  ml-md-0">
+            <div class="col-md-5 align-items-center d-none d-md-inline-block">
+                <div class="mr-2">
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                </div>
+                <div>
+                    <p class="mb-0"> Où ? </p>
+                    <p class="italic mb-0"> Le Mans et alentours </p>
+                </div>
+            </div>
+
+            <div class="col-md-2 img-fluid col-6 d-none d-md-inline-block">
+                <img src="./img/logo-header.svg" alt="logo-En-Compagnie" class="main-logo">
+            </div>
+
+            <div class=" col-md-5 column text-right d-none d-md-inline-block">
+                <i class="far fa-envelope fa-1x"></i>
+                <i class="fas fa-mobile-alt fa-1x"></i>
+                <address class="mb-0">
+                    <p class="mb-0"> contact@encompagnie.fr</p>
+                    <p class="mb-0"> 06 81 93 20 73</p>
+                </address>
+            </div>
+        </div>
+    </header>
+
+    <!--header/nav small screen size-->
+    <header class="container mb-4">
+        <div class="row ">
+            <div class="col-md-6 img-fluid col-6 d-md-none">
+                <img src="./img/logo-header.svg" alt="logo-En-Compagnie" class="main-logo-sm-screen">
+            </div>
+            <nav class="col-6">
+                <ul class="text-right  d-md-none">
+                    <!--menu button-->
+                    <button id="button-toggle" class=" menu-button mb-2">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <li class=" py-1 hidden-menu">
+                        <a href="#ancre-presentation"> Qui suis-je ?</a>
+                    </li>
+                    <li class="py-1 hidden-menu">
+                        <a href="#ancre-services"> Mes services</a>
+                    </li>
+                    <li class="py-1 hidden-menu">
+                        <a href="#ancre-howto"> Comment ça marche ?</a>
+                    </li>
+                    <li class="py-1 hidden-menu">
+                        <a href="#ancre-tarifs"> Mes tarifs</a>
+                    </li>
+                    <li class="py-1 hidden-menu">
+                        <a href="#ancre-charte"> Éthique - Qualité</a>
+                    </li>
+                    <li class="py-1 hidden-menu">
+                        <a href="#ancre-contact"> Contact</a>
+                    </li>
+                    <!--Info covid-->
+                    <li>
+                                <button type="button" class="btn btn-sm btn-info btn-small-screen mt-3" data-toggle="popover"
+                                    data-placement="bottom" data-content="En cette période épidémique, je prends soin
+                     de votre santé et suis toutes les précautions nécessaires, en conformité avec les directives
+                    des autorités de santé.">Info COVID-19
+                                    <img src="./img/masque.svg" alt="img-dots" class="img-dots">
+                                </button>
+                    </li>
+                </ul>
+                <nav>
+        </div>
+    </header>
+    <!-- Fin Header -->
+
+    <!--Début nav-->
+
+    <nav class="container justify-content-center">
+        <div>
+            <ul class=" col-12 col-sm-12 py-0 mb-5 m-md-0 justify-content-sm-between text-center  d-none d-md-flex">
+                <li class=" py-1">
+                    <a href="#ancre-presentation"> Qui suis-je ?</a>
+                </li>
+                <li class="py-1">
+                    <a href="#ancre-services"> Mes services</a>
+                </li>
+                <li class="py-1">
+                    <a href="#ancre-howto"> Comment ça marche ?</a>
+                </li>
+                <li class="py-1">
+                    <a href="#ancre-tarifs"> Mes tarifs</a>
+                </li>
+                <li class="py-1">
+                    <a href="#ancre-charte"> Éthique - Qualité</a>
+                </li>
+                <li class="py-1">
+                    <a href="#ancre-contact"> Contact</a>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-sm btn-info" data-toggle="popover" data-placement="bottom"
+                        data-content="En cette période épidémique, je prends soin
+                     de votre santé et suis toutes les précautions nécessaires, en conformité avec les directives
+                    des autorités de santé.">Info COVID-19
+                        <img src="./img/masque.svg" alt="img-dots" class="img-dots">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--Fin nav-->
+
+    <!--Début section Accueil -->
+    <section class="container justify-content-center mb-0 pt-0 pb-5 py-md-5">
+        <div class="row align-items-center justify-content-md-between justify-content-center">
+            <div class="col-12  col-md-6 pr-3 text-center">
+                <img src="./img/ec-le-mans.gif" alt="photos-Le-Mans" class="gif-size">
+            </div>
+            <div class="col-12 pt-3 col-md-6 pl-3 text-center text-md-left">
+                <h2 class="blue-text"> Étonnez-vous et osez être accompagné(e) !</h2>
+                <h5 class="blue-text">
+                    <span class="pink-text"><strong>En Compagnie</strong> </span>, un service
+                    de partage et loisirs à la carte
+                    pour les personnes seniors et âgées. </h5>
+                <img src="./img/3-dots-white-bg.png" alt="img-dots" class="img-dots">
+            </div>
+        </div>
+
+        <!-- boutons "to the top"-->
+        <div id="scrollUp" class="d-none d-md-flex mr-md-4">
+            <a href="#top"><i class=" fas fa-3x fa-arrow-circle-up" alt="Retourner en haut"></i></a>
+        </div>
+        <div id="scrollUpSmallScreen" class="mr-2 d-md-none">
+            <a href="#top"><i class=" fas fa-2x fa-arrow-up" alt="Retourner en haut"></i></a>
+        </div>
+    </section>
+    <!--Fin section Accueil -->
+
+
+    <!--Début section Qui-suis-je ?-->
+    <section class="bg-pink color-white" id="ancre-presentation">
+        <div class="container-fluid py-5">
+            <div class="row align-items-center text-center">
+                <div class="col-12 col-sm-6 col-md-6 ">
+                    <img src="./img/photo-ej.svg" class="pb-5 pb-md-0 photo-ej">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 text-center text-md-left">
+                    <h2 class="white-text mb-3"> Qui suis-je ?</h2>
+                    <h5 class="white-text"> Emmanuelle Jousse </h5>
+                    <p class="white-text"> Ancienne infirmière et formatrice, je suis là pour vous accompagner avec
+                        enthousiasme et sérieux.</p>
+                    <img src="img/3-dots-pink-bg.png" alt="img-dots" class="img-dots">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin section Qui-suis-je ? -->
+
+    <!--Début section Mes services-->
+    <section class="bg-white justify-content-center" id="ancre-services">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-8 text-center text-md-left justify-content-center">
+                    <h2 class="pink-text mb-4"> Mes services</h2>
+                    <h5 class="blue-text">Pour éclairer vos journées, je vous accompagne chez vous ou à l’extérieur
+                        !
+                    </h5>
+                </div>
+                <!-- layout medium size-->
+                <div class="col-md-12 col-6 d-none d-md-flex">
+                    <img src="./img/mes-services/lecture1.png" alt="img-lecture" class="img-services img-fluid">
+                    <img src="./img/mes-services/activites2.png" alt="img-activites" class="img-services img-fluid">
+                    <img src="./img/mes-services/jeux3.png" alt="img-jeux" class="img-services img-fluid">
+                </div>
+
+                <div class="col-md-12 col-6 d-none d-md-flex">
+                    <img src="./img/mes-services/cuisine4.png" alt="img-cuisine" class="img-services img-fluid">
+                    <img src="./img/mes-services/cinema5.png" alt="img-cinema" class="img-services img-fluid">
+                    <img src="./img/mes-services/promenade6.png" alt="img-promenade" class="img-services img-fluid">
+                </div>
+
+                <div class="col-md-12 col-6 d-none d-md-flex">
+                    <img src="./img/mes-services/the7.png" alt="img-the" class="img-services img-fluid">
+                    <img src="./img/mes-services/sorties8.png" alt="img-sorties" class="img-services img-fluid">
+                    <img src="./img/mes-services/autres9.png" alt="img-autres" class="img-services img-fluid">
+                </div>
+
+                <!-- layout small size-->
+                <div class="col-6 d-md-none">
+                    <img src="./img/mes-services/lecture1.png" alt="img-lecture" class="img-services img-fluid">
+                    <img src="./img/mes-services/activites2.png" alt="img-activites" class="img-services img-fluid">
+                </div>
+                <div class="col-6 d-md-none">
+                    <img src="./img/mes-services/jeux3.png" alt="img-jeux" class="img-services img-fluid">
+                    <img src="./img/mes-services/cuisine4.png" alt="img-cuisine" class="img-services img-fluid">
+                </div>
+                <div class="col-6 d-md-none">
+                    <img src="./img/mes-services/cinema5.png" alt="img-cinema" class="img-services img-fluid">
+                    <img src="./img/mes-services/promenade6.png" alt="img-promenade" class="img-services img-fluid">
+                </div>
+                <div class="col-6 d-md-none">
+                    <img src="./img/mes-services/the7.png" alt="img-the" class="img-services img-fluid">
+                    <img src="./img/mes-services/sorties8.png" alt="img-sorties" class="img-services img-fluid">
+                </div>
+                <div class="col-6 d-md-none">
+                    <img src="./img/mes-services/autres9.png" alt="img-autres" class="img-services img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin section Mes services-->
+
+    <!--Début section Comment ça marche ?-->
+    <section class="bg-blue" id="ancre-howto">
+        <div class="container-fluid justify-content-center py-md-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12 p-0 text-center">
+                    <img src="./img/cmt-ca-marche/logo-ccm.png" alt="logo-En-Compagnie">
+                </div>
+                <div class="white-text col-md-6 text-center text-md-left py-3 px-4 pr-md-5">
+                    <h2 class="mb-4 mb-md-3"> Comment ça marche ?</h2>
+                    <div>
+                        <img src="./img/cmt-ca-marche/arrow.png" class="img-arrow d-none d-md-flex ">
+                        <p class="mb-0">Contactez-moi au 06 24 56 72 98 pour parler de votre projet et faire
+                            connaissance.</p>
+                    </div>
+                    <div>
+                        <img src="./img/cmt-ca-marche/arrow.png" class="img-arrow d-none d-md-flex mt-md-3">
+                        <img src="img/3-dots-blue-bg.png" alt="img-dots" class="my-3 img-dots text-center d-md-none">
+                        <p class="mb-0"> Nous convenons ensemble d’une date et d’une heure.</p>
+                    </div>
+                    <div>
+                        <img src="./img/cmt-ca-marche/arrow.png" class="img-arrow d-none d-md-flex mt-md-3">
+                        <img src="img/3-dots-blue-bg.png" alt="img-dots" class="my-3 img-dots text-center d-md-none">
+                        <p class="mb-0"> Le jour J, nous nous retrouvons pour l’activité de votre choix, chez vous ou
+                            à
+                            l’extérieur.</p>
+                    </div>
+                    <img src="img/3-dots-blue-bg.png" alt="img-dots" class="my-4 img-dots">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin section Comment ça marche ?-->
+
+    <!--Début section Mes tarifs-->
+    <section id="ancre-tarifs">
+        <div class="container py-5">
+            <div class="mt-1">
+                <h2 class="pink-text text-center text-md-left mb-4"> Mes tarifs </h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 text-center text-md-left">
+                    <h5>Facturation à l’heure avec tarif dégressif :</h5>
+                    <ul>
+                        <li>- Pour 1 heure : 30€</li>
+                        <li>- Pour 2 heures : 55€</li>
+                        <li>- Pour 3 heures : 75€</li>
+                        <li>- Les heures suivantes : 25€/heure</li>
+                    </ul>
+                    <h5> Bon cadeau (forfait à offrir) :</h5>
+                    <ul>
+                        <li>- Bon cadeau pour 2 heures : 55€</li>
+                        <li>- Bon cadeau pour 3 heures : 75€</li>
+                    </ul>
+                    <img src="./img/3-dots-white-bg.png" alt="img-dots" class="py-5 py-md-none img-dots">
+                </div>
+                <div class="col-12 col-md-6  text-center text-md-left">
+                    <h5>Paiement en CESU possible :</h5>
+                    <ul>
+                        <li> 25€ net par heure (sans tarif dégressif)</li>
+                    </ul>
+                    <h5> Précisions CESU :</h5>
+                    <h6> Pour le particulier employeur :</h6>
+                    <ul>
+                        <li>- Coût avec les charges : 43,65€/heure</li>
+                        <li>- Coût après avantage fiscal : 21,82€/heure</li>
+                    </ul>
+                    <h6> Pour les particuliers employeurs de plus de 70 ans, exonération des charges sociales</h6>
+                    <ul>
+                        <li>- Coût sans avantage fiscal : 36,42€/heure</li>
+                        <li>- Coût après avantage fiscal : 18,21€/heure</li>
+                    </ul>
+                    <p class="italic"> L'avantage fiscal accordé à l'employeur est de 6000€ maximum par an.
+                        Ce montant peut être majoré selon la situation personnelle de l'employeur.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- Fin section Mes tarifs-->
+
+    <!--Début section Ethique/Qualité-->
+    <section class="bg-pink" id="ancre-charte">
+        <div class="container py-5">
+            <div class="row text-center text-md-left">
+                <div class="col-12 col-md-6 pr-5">
+                    <h2 class=" blue-text mb-3"> Mon cadre éthique :</h2>
+                    <ul class="white-text">
+                        <li>
+                            • Je respecte la singularité de chacun et agis en toute neutralité.
+                            <p class="italic mt-1"> Je veille à respecter vos choix et m'attache à ne pas les juger.</p>
+                        </li>
+                        <li>
+                            • Je m'engage à rester discrète quant à votre vie privée et votre espace de vie.
+                            <p class="italic my-1">Je ne divulgue pas l'identité de ma clientèle, ni aucune information
+                                à son sujet.
+                            </p>
+                            <p class="italic">Chez vous ou à l’extérieur, je respecte votre intimité et agis selon
+                                vos demandes.</p>
+                        </li>
+                    </ul>
+                    <div class="blue-border white-text pt-4 px-4 pb-2 encart">
+                        <ul>
+                            <li>• Je suis formée aux premiers secours (PSC1).</li>
+                            <li>• Je suis titulaire d'une assurance responsabilité civile professionnelle.</li>
+                        </ul>
+                    </div>
+                    <img src="img/3-dots-pink-bg.png" alt="img-dots" class="img-dots d-md-none pt-4">
+
+                </div>
+                <div class="col-12 col-md-6 pr-5 py-4 py-md-0">
+                    <h2 class="blue-text mb-3"> Ma charte qualité :</h2>
+                    <h6 class="white-text underline"> Accueillir et informer :</h6>
+                    <ul class="white-text">
+                        <li>• Je réponds personnellement à vos messages et appels.</li>
+                        <li>• Je vous donne une information claire et détaillée sur mes services et tarifs.</li>
+                    </ul>
+                    <h6 class="white-text underline"> Répondre à votre demande : </h6>
+                    <ul class="white-text">
+                        <li>• Je m'adapte à vos attentes et je vérifie que votre demande corresponde à la compétence d'«
+                            En Compagnie »</li>
+                        <li>• Si nécessaire, je vous réoriente vers les services compétents.</li>
+                    </ul>
+                    <img src="img/3-dots-pink-bg.png" alt="img-dots" class="img-dots">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin section Ethique/Qualité-->
+
+    <!--Début section Contact-->
+    <address id="ancre-contact" class=" bg-white">
+        <div class="container py-md-5 justify-content-center pt-0 pb-2">
+            <div class="row align-items-center text-center text-md-left">
+                <div class="col-md-6 col-12">
+                    <img src="img/contact/logo-contact.png">
+                </div>
+                <div class="col-md-6 col-12 ">
+                    <h2 class="mb-3"> Contactez-moi</h2>
+                    <p> du lundi au vendredi - de 9h à 18h30</p>
+                    <img src="./img/3-dots-white-bg.png" alt="img-dots" class="img-dots">
+                    <p> Par téléphone : 06 87 92 03 12</p>
+                    <p> Par e-mail : contact@encompagnie.fr</p>
+                </div>
+            </div>
+        </div>
+    </address>
+    <!-- Fin section Contact -->
+
+    <!--Début footer -->
+    <footer class="bg-blue">
+        <div class="container py-3">
+            <ul class=" row mb-0 white-text justify-content-center">
+                <li class="px-4">
+                    <a href="#"> Mentions légales </a>
+                </li>
+                <li class="px-4">
+                    <a href="#"> CGV </a>
+                </li>
+                <li class="px-4">
+                    <a href="#"> Crédits </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+    <!-- Fin footer -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
