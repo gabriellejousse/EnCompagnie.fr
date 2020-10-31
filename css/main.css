@@ -34,7 +34,7 @@
 }
 
 .italic {
-    font-family: 'Poppins-italic';
+    font-family: 'Poppins-italic', sans-serif;
     font-size: 90%;
 }
 
