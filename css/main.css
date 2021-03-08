@@ -50,7 +50,7 @@ p a:hover{
 
 nav {
     font-weight: 500;
-    font-size: 100%;
+    font-size: 90%;
 }
 
 nav li a {
@@ -206,4 +206,21 @@ z-index:1;
 .lien-crédit{
     font-size:90%;
     color:#C03749;
+}
+
+.button{
+    border-radius:5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    padding:6px 13px 6px 13px;
+    background-color: #202549;
+    color: white;
+    border:none;
+}
+
+.separateur{
+    height:1px;
+    width: 70%;
+    margin: 0 auto; 
+    background-color: #202549;
 }
