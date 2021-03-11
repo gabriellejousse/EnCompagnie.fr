@@ -11,6 +11,7 @@ html {
 
 
 
+
 .bg-pink{
     background-color: #C03749;
 }
@@ -139,7 +140,7 @@ button:focus {
 }
 
 .main-logo {
-    width:100%
+    width:80%
 }
 
 .main-logo-sm-screen{
