@@ -219,9 +219,20 @@ z-index:1;
     border:none;
 }
 
+.button-pink{
+    border-radius:5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    padding:6px 13px 6px 13px;
+    background-color: #C03749;
+    color: white;
+    border:none;
+}
+
 .separateur{
     height:1px;
     width: 70%;
     margin: 0 auto; 
+    margin-bottom:50px;
     background-color: #202549;
 }
