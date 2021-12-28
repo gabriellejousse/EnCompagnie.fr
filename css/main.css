@@ -10,6 +10,9 @@ html {
 }
 
 
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
 
 
 .bg-pink{
